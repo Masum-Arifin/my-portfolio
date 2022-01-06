@@ -91,7 +91,6 @@ h1::before {
 
 .flexible-container {
     margin-left: 50px;
-    margin-right: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +140,7 @@ h1::before {
     margin-top: 86px;
     display: flex;
     margin-left: 160px;
-    margin-right: 160px;
+    
 }
 
 .bg-img {
@@ -207,7 +206,6 @@ h1::before {
     margin-top: 149px;
     display: flex;
     margin-left: 160px;
-    margin-right: 160px;
 }
 
 .project-img img {
@@ -221,6 +219,10 @@ h1::before {
     display: flex;
     margin-left: 260px;
 }
+ .corona-app-img img {
+     width: 338px;
+     height: 542px;
+ }
 
 .corona-app-title {
     text-align: center;
@@ -251,13 +253,13 @@ h1::before {
 
 .footer-section {
     margin-top: 122px;
-    width: 5000px;
     height: 177px;
-    background: rgba(11, 13, 23, 1);
+    background: rgb(17, 20, 32);
+    padding: 4px;
 }
 
 .footer-section-text {
-    color: #fff;
+    color: rgb(245, 235, 235);
     text-align: center;
     padding-top: 5px;
 }
@@ -269,7 +271,8 @@ h1::before {
 }
 
 .footer-text-color {
-    color: rgb(241, 207, 94);
+    color: gold;
+    
 }
 
 .footer-section-text h4 {
@@ -277,87 +280,3 @@ h1::before {
     font-weight: 100;
     font-size: 18px;
 }
-
-
- .my-mission{
-     color: coral;
-     font-size: 60px;
-    
-     
- }                   
- .mission-in{
-  color: rgb(53, 53, 122);
-  font-size: 60px;
-  margin-top: 10%;
-
-    
- }
- .half-width{
-     text-align: center;
- }
-            
-
- .middle-width{
-     width: 80%;
-     color: #070606;
-     font-family: "Yeseva One";
-     padding-top: 100px;
-     padding-right: 280px;
-   
-
- }                                                       
- .middle-width img{
-width: 90%;
-height: 70%;
-padding-top: 5%;
-margin-left: 200px;
-
- }
- .develop{
-     font-size: 50px;
- }
- .first-pera{
-     font-size: 18px;
-     padding-left: 10px;
-
- }
- .corona-app-section {
-     margin-top: 84px;
-     display: flex;
-     margin-left: 260px;
- }
-
- .corona-app-title {
-     text-align: center;
-     font-family: "Poppins";
-     font-weight: 700;
-     font-size: 48px;
- }
-
- .corona-app-img img {
-     width: 338px;
-     height: 542px;
-     /* padding-left: 256px; */
- }
-
- .stay-safe-text {
-     margin-top: 80px;
-     padding-left: 160px;
-     font-family: "Poppins";
-     font-weight: 400;
-     font-size: 18px;
- }
-
- .corona-text {
-     margin: 0;
-     font-family: "Poppins";
-     font-weight: 700;
-     font-size: 48px;
- }
-
- .footer-section {
-     margin-top: 122px;
-     width: 1519px;
-     height: 177px;
-     background: rgba(11, 13, 23, 1);
- } 
